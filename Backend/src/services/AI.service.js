@@ -1,3 +1,4 @@
+
 const {GoogleGenerativeAI} = require("@google/generative-ai");
 const Train = require("./TrainingModel");
 
@@ -17,4 +18,3 @@ async function GenerateContent(prompt){
 module.exports = {
     GenerateContent,
 };
-
